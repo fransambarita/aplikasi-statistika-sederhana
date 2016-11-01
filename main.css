@@ -1,0 +1,116 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Pengaturan HEADER */
+.header {
+	background: #27ae60;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+	.header h1 {
+		color: white;
+		text-align: center;
+	}
+
+/* Pengaturan MENU */
+.menu {
+	background: #ecf0f1;
+	float: left;
+    height: 550px;
+    width: 25%;
+    margin: 0;
+
+}
+
+	.menu ul {
+		list-style-type: none;
+		
+	}
+
+	.menu ul a {
+		text-decoration: none;
+		color: #27ae60;	
+		font-family: 'Lucida ConsoleLucida Console';
+		font-size: 20px;
+	}
+
+		.menu ul a:hover {
+			color: #333333;
+		}
+
+/* Pengaturan MENU 2 */
+.menu2 {
+	padding-left: 200px;
+	overflow: hidden;
+	background: #ecf0f1;
+	width: 72;
+	height: 550px;
+	border-left: 1px solid gray;
+}
+
+
+/*Pengaturan FOOTER */
+
+.footer {
+
+	width: 100%;
+	overflow: hidden;
+	background: #333333;
+}
+
+	.footer .copyright {
+		text-align: center;
+		
+
+	}
+
+	.footer .copyright a {
+		color: white;
+		text-decoration: none;
+	}
+
+/*Pengaturan Forms*/
+input[type=text]{
+    width: 240px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	transition: all 1s;
+    background-color: #333333;
+}
+
+/*Pengaturan Table*/
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 20%
+}
+
+th, td {
+    padding: 15px;
+}	
